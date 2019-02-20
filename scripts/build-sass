@@ -1,0 +1,1 @@
+mkdir -p ./dist/sass && node-sass --output-style compressed ./src/sass/main.scss > ./dist/sass.build.css

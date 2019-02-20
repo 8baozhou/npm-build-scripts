@@ -4,16 +4,19 @@
   "description": "学习用 NPM scripts 打包",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/8baozhou/npm-build-scripts.git"
+    "build:sass": "./scripts/build-sass",
+    "build:js": "./scripts/build-js",
+    "watch:sass": "./scripts/watch-sass",
+    "watch:js": "./scripts/watch-js",
+    "dev": "./scripts/dev"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/8baozhou/npm-build-scripts/issues"
-  },
-  "homepage": "https://github.com/8baozhou/npm-build-scripts#readme"
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "lite-server": "^2.4.0",
+    "node-sass": "^4.11.0",
+    "uglify-js": "^3.4.9",
+    "watch": "^1.0.2"
+  }
 }
